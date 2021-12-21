@@ -1262,7 +1262,7 @@ img{
     }
 
     .home__social{
-        transform: rotateX(-6rem);
+        transform: translateX(-6rem);
     }
 
     .services__container{
