@@ -1254,7 +1254,7 @@ img{
     .header,
     .main,
     .footer__container{
-        padding: 0;
+        padding: auto;
     }
 
     .home__blob{
