@@ -1042,6 +1042,11 @@ img{
     .testimonial__description{
         text-align: center;
     }
+
+    .testimonial__name{
+        font-size: var(--h3-font-size);
+        font-weight: var(--small-font-size);
+    }
 }
 
 /* For medium devices */
