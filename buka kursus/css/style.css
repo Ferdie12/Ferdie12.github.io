@@ -44,7 +44,7 @@ body {
   background-color: #3b4b38;
   overflow: hidden;
   z-index: 1000;
-  transition: opacity 2.5s 2.4s;
+  transition: opacity 1.5s 1.4s;
 }
 
 .preloader.preload-finish {
