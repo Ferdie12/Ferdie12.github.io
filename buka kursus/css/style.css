@@ -44,7 +44,7 @@ body {
   background-color: #3b4b38;
   overflow: hidden;
   z-index: 1000;
-  transition: opacity 1.5s 1.4s;
+  transition: opacity 2.5s 2.4s;
 }
 
 .preloader.preload-finish {
@@ -69,11 +69,11 @@ body {
 
 .rocket {
   height: 220px;
-  animation: move 1.2s linear infinite alternate;
+  animation: move 2.2s linear infinite alternate;
 }
 
 .preloader.preload-finish .rocket-container {
-  animation: finish 1.5s 1 ease forwards;
+  animation: finish 2.5s 1 ease forwards;
 }
 
 @keyframes finish {
