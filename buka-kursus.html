@@ -14,6 +14,26 @@
 
     <!-- custom js file link  -->
     <script src="buka kursus/js/script.js" defer></script>
+    
+     <!-- custom chatbots  -->
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="ChatBot"
+  agent-id="82952ec6-df24-440d-9b13-1bc72462f25b"
+  language-code="id"
+></df-messenger>
+
+<style>
+  df-messenger {
+   --df-messenger-bot-message: rgba(37, 151, 117, 0.918);
+   --df-messenger-button-titlebar-color: #94df56;
+   --df-messenger-chat-background-color: #fafafa;
+   --df-messenger-font-color: white;
+   --df-messenger-send-icon: rgba(37, 151, 117, 0.918);
+   --df-messenger-user-message: #479b3d;
+  }
+</style>
 
 </head>
 <body>
