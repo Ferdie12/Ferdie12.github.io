@@ -914,6 +914,14 @@ section:nth-child(even) {
   .contact .row form .inputBox input {
     width: 100%;
   }
+  
+  .blogs .box-container1 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 2rem;
+}
 
   .outer-space {
     width: 300px;
