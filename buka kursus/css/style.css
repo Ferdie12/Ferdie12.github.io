@@ -735,9 +735,7 @@ section:nth-child(even) {
 
 .blogs .box-container1 {
   display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (minmax(60rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(60rem, 1fr));
+  display: center;
   gap: 2rem;
 }
 
